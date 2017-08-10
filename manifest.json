@@ -1,0 +1,15 @@
+{
+  "short_name": "Villa Lina",
+  "name": "Villa Lina Guest Tour Guide",
+  "background_color": "#292f37",
+  "theme_color": "#292f37",
+  "display": "standalone",
+  "icons": [
+    {
+      "src": "img/icon.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    }
+  ],
+  "start_url": "/"
+}
