@@ -1,0 +1,407 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Villa Lina - Welcome</title>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="">
+  <meta name="author" content="">
+  <meta name="theme-color" content="#292f37">
+  <link rel="apple-touch-icon" href="img/icon.png">
+  <meta name="msapplication-square310x310logo" content="img/icon.png">
+  <link rel="icon" sizes="192x192" href="img/icon.png">
+  <link rel="shortcut icon" sizes="192x192" href="img/icon.png">
+  <link rel="manifest" href="manifest.json">
+	<script>
+		var loc = window.location.href+'';
+		if (loc.indexOf('http://')==0){
+			window.location.href = loc.replace('http://','https://');
+		}
+	</script>
+  
+  <!-- Bootstrap Core CSS -->
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Custom CSS -->
+  <link href="css/stylish-portfolio.css" rel="stylesheet">
+
+  <!-- Custom Fonts -->
+  <!-- <script src="https://use.fontawesome.com/93094e7a5d.js" async></script> -->
+</head>
+
+<body>
+  <!-- Navigation -->
+  <a id="menu-toggle" href="#" class="btn btn-dark btn-lg toggle"><i class="fa fa-bars"></i></a>
+  <nav id="sidebar-wrapper">
+    <ul class="sidebar-nav">
+      <a id="menu-close" href="#" class="btn btn-light btn-lg pull-right toggle"><i class="fa fa-times"></i></a>
+      <li class="sidebar-brand"><a href="#top" onclick=$("#menu-close").click();><h4 class="text-white">Villa Lina</h4></a></li>
+      <li><a href="#recomendations" class="smoothscroll" onclick=$("#menu-close").click();><i class="fa fa-map" aria-hidden="true"></i> Where to go</a></li>
+      <li><a href="./beaches"><i class="fa fa-sun-o" aria-hidden="true"></i> Beaches</a></li>
+      <li><a href="./restaurants"><i class="fa fa-cutlery" aria-hidden="true"></i> Restaurants</a></li>
+      <li><a href="#places" class="smoothscroll" onclick=$("#menu-close").click();><i class="fa fa-map-marker" aria-hidden="true"></i> More places</a></li>
+      <li><a href="#forecast" class="smoothscroll" onclick=$("#menu-close").click();><i class="fa fa-cloud" aria-hidden="true"></i> Weather</a></li>
+      <li><a href="#services" class="smoothscroll" onclick=$("#menu-close").click();><i class="fa fa-phone" aria-hidden="true"></i> Service info</a></li>
+      <li><a href="#testimonial" class="smoothscroll" onclick=$("#menu-close").click();><i class="fa fa-pencil" aria-hidden="true"></i> Reviews</a></li>
+      <li><a href="#contact" class="smoothscroll" onclick=$("#menu-close").click();><i class="fa fa-user" aria-hidden="true"></i> Contact</a></li>
+    </ul>
+  </nav>
+
+    <!-- Header -->
+	<header id="top" class="header">
+		<div class="text-vertical-center">
+			<div class="title">
+				<div><i class="fa fa-heart-o icon heading" aria-hidden="true"></i></div>
+				<div class="smallsep heading"></div>
+				<h1 class="heading">Villa Lina</h1>
+				<h2 class="heading">Lovran - Croatia<br>
+				<i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i></h2>
+				<a class="smoothscroll" href="#recomendations">
+					<div class="scroll-down"></div>
+				</a> 
+			</div>
+			<a href="#recomendations" class="btn btn-dark btn-lg heading smoothscroll">Discover Lovran</a>
+		</div>
+	</header>
+
+
+	    <!-- Recomendations -->
+    <section id="recomendations" class="about  bg-primary">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2>Welcome</h2>
+                    <hr class="small">
+                    <p class="lead">Here you can find lovely info we prepared for you.</p>
+				<p class="lead">Get your apps ready with the links below & have a pleasant stay at Villa Lina.</p>
+                </div>
+				<div class="row">
+					<div class="col-md-6 col-sm-6 col-xs-6">
+						<div class="portfolio-item">
+							<img class="img-portfolio img-responsive"  src="img/google-maps.png" width="100px" height="auto">
+								<p class="text-center">Google Maps</p>
+						</div>
+						<div class="col-md-6 col-sm-12 col-xs-12">
+							<a href="https://itunes.apple.com/us/app/google-maps-navigation-transit/id585027354" target="_blank" rel="noopener">
+								<img class="img-portfolio img-responsive"  src="img/app-store-badge.png" width="100px" height="auto" style="margin-bottom: 10px;">
+							</a>
+						</div>
+						<div class="col-md-6 col-sm-12 col-xs-12">
+							<a href="https://play.google.com/store/apps/details?id=com.google.android.apps.maps" target="_blank" rel="noopener">
+								<img class="img-portfolio img-responsive"  src="img/google-play-badge.png" width="100px" height="auto">
+							</a>
+						</div>
+					</div>
+					<div class="col-md-6 col-sm-6 col-xs-6">
+						<div class="portfolio-item">
+							<img class="img-portfolio img-responsive"  src="img/google-street-view.png" width="100px" height="auto">
+							<p class="text-center">Google Street View</p>
+						</div>
+						<div class="col-md-6 col-sm-12 col-xs-12">
+							<a href="https://itunes.apple.com/us/app/google-street-view/id904418768" target="_blank" rel="noopener">
+								<img class="img-portfolio img-responsive"  src="img/app-store-badge.png" width="100px" height="auto" style="margin-bottom: 10px;">
+							</a>
+						</div>
+						<div class="col-md-6 col-sm-12 col-xs-12">
+							<a href="https://play.google.com/store/apps/details?id=com.google.android.street" target="_blank" rel="noopener">
+								<img class="img-portfolio img-responsive"  src="img/google-play-badge.png" width="100px" height="auto">
+							</a>
+						</div>
+					</div>
+				</div>
+        </div>
+    </section>
+
+	<!-- Map -->
+	<section id="map" class="map  bg-primary">
+		<iframe width="100%" height="100%" frameborder="0" scrolling="yes" marginheight="0" marginwidth="0" src="https://www.google.com/maps/d/u/0/embed?mid=1Ru_4Yym2hn0B_y387gvjckTwZGo"></iframe>
+	</section>
+	
+	   <section id="recomendations2" class="about  bg-primary text-secondary">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <p class="lead">You could take the map with you with the following button</p>
+				<a class="btn btn-light btn-lg"  target="_blank" rel="noopener"  href="https://www.google.com/maps/d/viewer?mid=1Ru_4Yym2hn0B_y387gvjckTwZGo"><i class="fa fa-map" aria-hidden="true"></i> Take this map with you</a>
+			 </div>
+            </div>
+        </div>
+    </section>
+
+   <!-- Places -->
+    <section id="places" class="portfolio">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-10 col-lg-offset-1 text-center">
+                    <h2 class="text-primary">Explore in details</h2>
+                    <hr class="small">
+				<p class="lead">See in details what is out there for you</p>
+                    <div class="row">
+					<div class="col-md-12 col-sm-12 col-xs-12 img-portfolio">
+						<a href="./beaches" target="_SELF">
+							<div class="places title" style="background-image:url(img/places-beach.jpg)">
+								<h1>Beaches</h1>
+							</div>
+						</a>
+					</div>
+					
+                        <div class="col-md-4 col-sm-6 col-xs-12 img-portfolio">
+						<a href="http://www.tz-lovran.hr/english/calendar.html" target="_blank" rel="noopener">
+							<div class="places title" style="background-image:url(img/places-culture.jpg)">
+								<h1>Culture & Events</h1>
+							</div>
+						</a>
+                        </div>
+                        <div class="col-md-4 col-sm-6 col-xs-12 img-portfolio">
+						<a href="http://www.visitrijeka.eu/What_To_Do/Shopping" target="_blank" rel="noopener">
+							<div class="places title" style="background-image:url(img/places-shopping.jpg)">
+								<h1>Shopping</h1>
+							</div>
+						</a>
+                        </div>
+                        <div class="col-md-4 col-sm-6 col-xs-12 img-portfolio">
+						<a href="http://istra.hr/en/attractions-and-activities/children-and-family/entertainment" target="_blank" rel="noopener">
+							<div class="places title" style="background-image:url(img/places-fun.jpg)">
+								<h1>Fun</h1>
+							</div>
+						</a>
+                        </div>
+					<div class="col-md-12 col-sm-6 col-xs-12 img-portfolio">
+						<a href="./restaurants" target="_SELF">
+							<div class="places title" style="background-image:url(img/places-restaurant.jpg)">
+								<h1>Restaurants</h1>
+							</div>
+						</a>
+					</div>
+						<a href="https://www.google.hr/destination?q=Lovran&newwindow=1&safe=off&hl=en&tcfs=%5B%5D&output=search&dest_mid=%2Fm%2F08q52q" target="_blank" rel="noopener" class="btn btn-dark btn-lg">Explore Lovran on Google</a>
+                    </div>
+                    <!-- /.row (nested) -->
+                </div>
+                <!-- /.col-lg-10 -->
+            </div>
+            <!-- /.row -->
+        </div>
+        <!-- /.container -->
+    </section>
+
+   <!-- Callout -->
+	<aside class="callout">
+		<div class="text-vertical-center">
+			<h1>Enjoy your stay</h1>
+			<hr class="small">
+			<p class="lead">Keep in mind that parking is completely FREE of charge anywhere in Lovran, which&nbsp;is&nbsp;not&nbsp;the&nbsp;case&nbsp;in&nbsp;any&nbsp;other&nbsp;town.</p>
+		</div>
+	</aside>
+
+	    <!-- <!-- Call to Action -->
+    <!-- <aside class="call-to-action bg-primary"> -->
+        <!-- <div class="container"> -->
+            <!-- <div class="row"> -->
+                <!-- <div class="col-lg-12 text-center"> -->
+                    <!-- <h3>The buttons below are impossible to resist.</h3> -->
+                    <!-- <a href="#" class="btn btn-lg btn-light">Click Me!</a> -->
+                    <!-- <a href="#" class="btn btn-lg btn-dark">Look at Me!</a> -->
+                <!-- </div> -->
+            <!-- </div> -->
+        <!-- </div> -->
+    <!-- </aside> -->
+
+
+
+	<!-- Forecast -->
+    <section id="forecast" class="call-to-action bg-secondary">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 class="text-primary">Weather forecast</h2>
+                    <hr class="small">
+					<iframe id="forecast_embed" type="text/html" frameborder="0" height="245" width="95%" src="https://forecast.io/embed/#lat=45.296928&lon=14.272370&name=Lovran&color=#b2b7bd&font='Raleway'&units=si"></iframe>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+	<!-- Services -->
+	 <!-- The circle icons use Font Awesome's stacked icon classes. For more information, visit http://fontawesome.io/examples/ -->
+	<section id="services" class="services text-white bg-primary">
+		<div class="container">
+			<div class="row text-center">
+			<div class="col-lg-10 col-lg-offset-1">
+				<h2>Service info</h2>
+				<hr class="small">
+				<div class="row">
+					<div class="col-md-6 col-sm-6">
+						<div class="service-item">
+							<span class="fa-stack fa-4x"><i class="fa fa-circle fa-stack-2x"></i><i class="fa fa-life-ring fa-stack-1x text-primary"></i></span>
+							<h5>Emergency Numbers</h5>
+								<p><a href="tel:112">112</a> - Emergency number</p>
+								<p><a href="tel:192">192</a> - Police</p>
+								<p><a href="tel:193">193</a> - Fire Brigade</p>
+								<p><a href="tel:194">194</a> - Ambualance</p>
+								<p><a href="tel:195">195</a> - Rescue at the sea</p>
+								<p><a href="tel:1987">1987</a> - Road assistance</p>
+							<!-- <a href="#" class="btn btn-light">Learn More</a> -->
+						</div>
+					</div>
+					<div class="col-md-6 col-sm-6">
+						<div class="service-item">
+							<span class="fa-stack fa-4x"><i class="fa fa-circle fa-stack-2x"></i><i class="fa fa-compass fa-stack-1x text-primary"></i></span>
+							<h5>Travel info</h5>
+							<p><a href="tel:+38551660660">+385 51 660 660</a> - Bus Rijeka, <a href="https://www.autotrans.hr/en-us/" target="_blank" rel="noopener">website</a></p>
+							<p><a href="tel:+38551842040">+385 51 842 040</a> - Airport Rijeka, <a href="http://www.rijeka-airport.hr/" target="_blank" rel="noopener">website</a></p>
+							<p><a href="tel:+38560308308">+385 60 308 308</a> - Airport Pula, <a href="http://www.airport-pula.hr/" target="_blank" rel="noopener">website</a></p>
+							<p><a href="tel:+38514562170">+385 1 456 2170</a> - Airport Zagreb, <a href="http://www.zagreb-airport.hr/en" target="_blank" rel="noopener">website</a></p>
+							<p><a href="tel:+390481773224">+39 0481 773224</a> - Airport Trieste, <a href="https://triesteairport.it/en/" target="_blank" rel="noopener">website</a></p>
+							<p><a href="tel:+38513782583">+385 1 378 2583</a> - Train Rijeka, <a href="http://www.hzpp.hr/en" target="_blank" rel="noopener">website</a></br>
+							<p><a href="tel:+38551704100">+385 51 704 100</a> - Taxi Hallo, <a href="http://hallotaxi.opatija.net/" target="_blank" rel="noopener">website</a></p>
+							<p><a href="tel:+38551313313">+385 51 313 313</a> - Taxi Cammeo, <a href="https://cammeo.hr/en/cities/rijeka" target="_blank" rel="noopener">website</a></p>
+							<!-- <a href="#" class="btn btn-light">Learn More</a> -->
+						</div>
+					</div>
+					<div class="col-md-6 col-sm-6">
+						<div class="service-item">
+							<span class="fa-stack fa-4x"><i class="fa fa-circle fa-stack-2x"></i><i class="fa fa-map-marker fa-stack-1x text-primary"></i></span>
+							<h5>Tourist info</strong></h5>
+							<p><a href="http://www.tz-lovran.hr/english/" target="_blank" rel="noopener">Touris Info Lovran</a></p>
+							<p><a href="http://visitopatija.com/en/" target="_blank" rel="noopener">Touris Info Opatija</a></p>
+							<p><a href="http://www.visitrijeka.eu/" target="_blank" rel="noopener">Tourist Info Rijeka</a></p>
+							<p><a href="http://www.stadanas.info/en/" target="_blank" rel="noopener">What Today?</a></p>
+							<!-- <a href="#" class="btn btn-light">Learn More</a> -->
+						</div>
+					</div>
+					<div class="col-md-6 col-sm-6">
+						<div class="service-item">
+							<span class="fa-stack fa-4x"><i class="fa fa-circle fa-stack-2x"></i><i class="fa fa-thumbs-up fa-stack-1x text-primary"></i></span>
+							<h5>Extras</strong></h5>
+							<p><a href="tel:+385913157777">+385 91 315 7777</a> - Rent-a-bike Opatija, <a href="http://alpirent.com/opatija/" target="_blank" rel="noopener">website</a></p>
+							<p>Bike Rijeka App <a href="https://play.google.com/store/apps/details?id=hr.molekula.bikerijeka" target="_blank" rel="noopener">Android</a> <a href="https://itunes.apple.com/hr/app/bike-rijeka/id884542925" target="_blank" rel="noopener">iPhone</a></p>
+							<p><a href="tel:+38551271100">+385 51 271 100</a> - Rent-a-car Opatija, <a href="http://www.uni-rent.net/" target="_blank" rel="noopener">website</a></p>
+							<p><a href="tel:+385992937969">+385 992937969</a> - Rent-a-car Opatija, <a href="https://avaxrent.com/car-hire-location/30" target="_blank" rel="noopener">website</a></p>
+							<p><a href="tel:+38598313846">+385 98 313 846</a> - Rent-a-boat Opatija, <a href="http://charter-opatija-rent-a-boat-opatija-croatia.business.site/" target="_blank" rel="noopener">website</a></p>
+							<p><a href="tel:+385915283771">+385 91 528 3771</a> - Excursions from Opatija, <a href="http://www.paragvaj-tours.hr/en/izleti/" target="_blank" rel="noopener">website</a></p>
+							<p><a href="tel:+38551603400">+385 51 603 400</a> - Excursions from Opatija, <a href="http://www.katarina-line.com/excursions/from_opatija#!/" target="_blank" rel="noopener">website</a></p>
+							<!-- <a href="#" class="btn btn-light">Learn More</a> -->
+						</div>
+					</div>
+					<!-- <div class="col-md-3 col-sm-6"> -->
+					<!-- <div class="service-item"> -->
+					<!-- <span class="fa-stack fa-4x"> -->
+					<!-- <i class="fa fa-circle fa-stack-2x"></i> -->
+					<!-- <i class="fa fa-shield fa-stack-1x text-primary"></i> -->
+					<!-- </span> -->
+					<!-- <h4> -->
+					<!-- <strong>Service Name</strong> -->
+					<!-- </h4> -->
+					<!-- <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p> -->
+					<!-- <!-- <a href="#" class="btn btn-light">Learn More</a> -->
+					<!-- </div> -->
+					<!-- </div> -->
+				</div>
+			</div>
+			</div>
+		</div>
+	</section>
+
+<!-- Testimonials -->
+<section id="testimonial"  style="background-color:#FFF !important">
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-10 col-lg-offset-1 text-center">
+				<h2>Write a review</h2>
+				<hr class="small">
+				<p class="lead">Please, take some time and add a review. I'd appriciate it :)</p>
+				<ul class="list-inline">
+				<li>
+					<a href="http://www.myistria.com/en/villas/in-opatija/villa-lina#reviewFrmContainer" target="_blank" rel="noopener"><img class="img-portfolio img-responsive" src="img/my_istria.png" style="box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);"></a>
+				</li>
+<!-- 				<li>
+					<a href="https://www.airbnb.com/rooms/13758259" target="_blank" rel="noopener"><img class="img-portfolio img-responsive" src="img/airbnb.png" style="box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);"></a>
+				</li> -->
+				<li>
+					<a href="https://search.google.com/local/writereview?placeid=ChIJ_-Wyb-hXY0cRJJ5ILWWF7AE" target="_blank" rel="noopener"><img class="img-portfolio img-responsive" src="img/google.png" style="box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);"></a>
+				</li>
+				</ul>
+			</div>
+		</div>
+	</div>
+
+	<hr class="small">
+
+	<div class="container">
+		<div class="quoteLoop" style="height:200px;">
+
+			<blockquote class="quote"> <img src="img/user-female-alt-icon.png" width="100" height="100" alt=""/>
+			<h5>&nbsp;<br>
+			&rdquo;
+			Wir waren eine Woche im Juni 2016 zu Gast in der Villa Lina. Wir wurden ausgesprochen herzlich vom Besitzer Mario empfangen. Das Haus übertraf unsere Erwartungen. Es ist liebevoll eingerichtet und sehr sauber. Wir fühlten uns sofort wie zu Hause. Der Blick vom Pool aufs Meer war herrlich. Man kann zu Fuss viele Restaurants erreichen und Lovran erkunden. Die Woche war viel zu kurz.
+			&rdquo;</h5>
+			<h6>Silvia, Germany</h6></blockquote>
+
+			<blockquote class="quote"> <img src="img/user-male-alt-icon.png" width="100" height="100" alt=""/>
+			<h5>&nbsp;<br>
+			&ldquo;
+			Haben eine sehr erholsame Woche in der Villa Lina verbracht. Moderne geräumige Villa mit einem gigantischen Ausblick. Die hohen Erwartungen aufgrund der tollen Fotos werden voll erfüllt. Sogar den Sonnenaufgang kann man vom Bett aus genießen. Hervorzuheben ist auch die herzliche und informative Begrüßung durch Mario.
+			&rdquo;</h5>
+			<h6>Harald, Germany</h6></blockquote>
+
+			<blockquote class="quote"> <img src="img/user-male-alt-icon.png" width="100" height="100" alt=""/>
+			<h5>&nbsp;<br>
+			&ldquo;
+			Kurz Zusammengefasst ein wirklich sehr schönes und gepflegtes Haus, bis hin zur Deko. Ganz toller Blick, gute Ausstattung und der Besitzer war sehr nett und sympathisch!!!
+			&rdquo;</h5>
+			<h6>Andreas, Austria</h6></blockquote>
+		</div>
+	</div>
+</section>
+
+
+    <!-- Footer -->
+    <footer id="contact" class="text-white bg-primary">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-10 col-lg-offset-1 text-center">
+                    <h4>Villa Lina</h4>
+					<ul class="list-unstyled">
+						<li><i class="fa fa-map-marker fa-fw"></i><a href="https://www.google.com/maps/dir/?api=1&destination=45.3011568,14.2703415&destination_place_id=ChIJ_-Wyb-hXY0cRJJ5ILWWF7AE&travelmode=driving" target="_blank" rel="noopener">Put Vojina, HR-51415 Lovran</a></li>
+                        <li><i class="fa fa-phone fa-fw"></i>Mario Lipovšek <a href="tel:+385913532222">+385 91 353 2222</a> </li>
+				    <li><i class="fa fa-phone fa-fw"></i>Lucijana Lipovšek <a href="tel:+38598422667">+385 98 422 667</a></li>
+                        <li><i class="fa fa-envelope-o fa-fw"></i> <a href="mailto:mariobattifiaca@gmail.com">mariobattifiaca@gmail.com</a>
+                        </li>
+                    </ul>
+                    <br>
+                    <p class="text-muted">Copyright &copy; Villa Lina 2017. Powered by <a href="http://estudio.epizy.com/" target="_blank" rel="noopener">SolutionBox</a>.</p>
+                </div>
+            </div>
+        </div>
+        <a id="to-top" href="#top" class="btn btn-dark btn-lg smoothscroll"><i class="fa fa-chevron-up fa-fw fa-1x"></i></a>
+    </footer>
+
+
+	<!-- jQuery -->
+	<script src="js/jquery.min.js"></script>
+	<!-- Bootstrap Core JavaScript -->
+	<script src="js/bootstrap.min.js"></script>
+	
+	
+	<script src='js/TweenMax.min.js'></script>
+	<script>TweenMax.staggerFrom(".heading", 0.8, {opacity: 0, y: 20, delay: 0.2}, 0.4);</script>
+	
+	<!-- Custom Theme JavaScript -->
+	<script src="js/custom.js" async></script>
+	
+	<!-- ServiceWorker -->
+	<script>
+	if (navigator.serviceWorker) {
+	  navigator.serviceWorker.register('/sw.js').then(function(registration) {
+	    console.log('ServiceWorker registration successful with scope:',  registration.scope);
+	  }).catch(function(error) {
+	    console.log('ServiceWorker registration failed:', error);
+	  });
+	}
+	</script>
+
+</body>
+</html>
