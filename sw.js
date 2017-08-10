@@ -27,7 +27,7 @@
 // cache, then increment the CACHE_VERSION value. It will kick off the service worker update
 // flow and the old cache(s) will be purged as part of the activate event handler when the
 // updated service worker is activated.
-var CACHE_VERSION = 12;
+var CACHE_VERSION = 1;
 var CURRENT_CACHES = {
   prefetch: 'prefetch-cache-v' + CACHE_VERSION
 };
@@ -40,12 +40,15 @@ var CURRENT_CACHES = {
 'beaches.html',
 'restaurants.html',
 'manifest.json',
+'css/addtohomescreen.css',
 'css/bootstrap.min.css',
 'css/stylish-portfolio.css',
 'css/slick.min.css',
 'css/normalize.min.css',
 'js/slick.min.js',
 'js/bootstrap.min.js',
+'js/addtohomescreen.min.js',
+'js/addtohomescreen.js',
 'js/custom.js',
 'js/jquery.lazy.min.js',
 'js/jquery.min.js',
