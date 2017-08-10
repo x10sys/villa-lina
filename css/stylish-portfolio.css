@@ -28,7 +28,7 @@
   font-weight: 400;
   src: local('Great Vibes'), local('GreatVibes-Regular'), 
 	  url(../fonts/greatvibes-regular-webfont.woff2) format('woff2'),
-	  url(../fonts/greatvibes-regular-webfontwoff) format('woff'),
+	  url(../fonts/greatvibes-regular-webfont.woff) format('woff'),
 	  url(../fonts/GreatVibes-Regular.ttf) format('truetype');
 }
 
