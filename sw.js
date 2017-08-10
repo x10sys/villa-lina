@@ -33,9 +33,9 @@ var CURRENT_CACHES = {
 };
 
   var urlsToPrefetch = [
-'/',
-'/beaches',
-'/restaurants',
+'.',
+'./beaches',
+'./restaurants',
 'index.html',
 'beaches.html',
 'restaurants.html',
