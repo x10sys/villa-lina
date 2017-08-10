@@ -20,7 +20,16 @@
 			window.location.href = loc.replace('http://','https://');
 		}
 	</script>
-  
+  <!-- Add To Homescreen -->
+	<meta name="apple-mobile-web-app-capable" content="yes">
+	<meta name="mobile-web-app-capable" content="yes">
+	<meta name="apple-mobile-web-app-title" content="Villa Lina">
+	<link rel="shortcut icon" sizes="16x16" href="img/icon.png">
+	<link rel="shortcut icon" sizes="196x196" href="img/icon.png">
+	<link rel="apple-touch-icon-precomposed" href="img/icon.png">
+	<link rel="stylesheet" type="text/css" href="css/addtohomescreen.css">
+	<script src="js/addtohomescreen.js"></script>
+	
   <!-- Bootstrap Core CSS -->
   <link href="css/bootstrap.min.css" rel="stylesheet">
 
@@ -32,6 +41,14 @@
 </head>
 
 <body>
+	<!-- Add To Homescreen -->
+	<script>
+		addToHomescreen({
+		startDelay: 2,
+		detectHomescreen: true
+	});
+	</script>
+	
   <!-- Navigation -->
   <a id="menu-toggle" href="#" class="btn btn-dark btn-lg toggle"><i class="fa fa-bars"></i></a>
   <nav id="sidebar-wrapper">
