@@ -477,7 +477,7 @@ blockquote {
 
 .scroll-down {
 	position: absolute;
-	left: 50%;
+	left: 49.5%;
 	bottom: 5vh;
 	display: block;
 	text-align: center;
