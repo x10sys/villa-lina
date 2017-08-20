@@ -27,7 +27,7 @@
 // cache, then increment the CACHE_VERSION value. It will kick off the service worker update
 // flow and the old cache(s) will be purged as part of the activate event handler when the
 // updated service worker is activated.
-var CACHE_VERSION = 1;
+var CACHE_VERSION = 2;
 var CURRENT_CACHES = {
   prefetch: 'prefetch-lina-v' + CACHE_VERSION
 };
@@ -88,6 +88,12 @@ var CURRENT_CACHES = {
 'img/bch-angiolina-4.jpg',
 'img/bch-angiolina-5.jpg',
 'img/bch-angiolina-6.jpg',
+'img/bch-dog_lovran.jpg',
+'img/bch-dog_lovran-1.jpg',
+'img/bch-dog_lovran-2.jpg',
+'img/bch-dog_lovran-3.jpg',
+'img/bch-dog_lovran-4.jpg',
+'img/bch-dog_lovran-5.jpg',
 'img/bch-icici.jpg',
 'img/bch-icici-1.jpg',
 'img/bch-icici-2.jpg',
@@ -202,6 +208,15 @@ var CURRENT_CACHES = {
 'img/rst-ruzmarin-6.jpg',
 'img/rst-ruzmarin-7.jpg',
 'img/rst-ruzmarin-8.jpg',
+'img/rst-stancija_kovacici.jpg',
+'img/rst-stancija_kovacici-1.jpg',
+'img/rst-stancija_kovacici-2.jpg',
+'img/rst-stancija_kovacici-3.jpg',
+'img/rst-stancija_kovacici-4.jpg',
+'img/rst-stancija_kovacici-5.jpg',
+'img/rst-stancija_kovacici-6.jpg',
+'img/rst-stancija_kovacici-7.jpg',
+'img/rst-stancija_kovacici-8.jpg',
 'img/rst-submarine.jpg',
 'img/rst-submarine-1.jpg',
 'img/rst-submarine-2.jpg',
