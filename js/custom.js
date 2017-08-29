@@ -12,7 +12,7 @@ fade($('.quoteLoop > .quote').first());
  // <!-- Menu handling -->
 
 // Closes the sidebar menu
-$("#menu-close").click(function(e) {
+/* $("#menu-close").click(function(e) {
    e.preventDefault();
    $("#sidebar-wrapper").toggleClass("active");
 });
@@ -20,6 +20,22 @@ $("#menu-close").click(function(e) {
 $("#menu-toggle").click(function(e) {
    e.preventDefault();
    $("#sidebar-wrapper").toggleClass("active");
+}); */
+//Open menu
+$('#menu-toggle').click(function(e) {
+	e.preventDefault();
+  e.stopPropagation();
+  $("#sidebar-wrapper").toggleClass('active')
+});
+$("#menu-close").click(function(e) {
+   e.preventDefault();
+   $("#sidebar-wrapper").toggleClass("active");
+});
+//Close menu on body
+$('body').click(function(e) {
+  if ($('#sidebar-wrapper').hasClass('active')) {
+    $("#sidebar-wrapper").toggleClass('active')
+  }
 });
 
 //#to-top button appears after scrolling
