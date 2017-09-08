@@ -1,0 +1,55 @@
+<html>
+<head>
+  <title>SolutionBox - Redirect</title>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="author" content="estudio.epizy.com">
+  
+  	<link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
+	<link href="css/style.css" rel="stylesheet" type="text/css"/>
+	<style>
+		html, body {
+		  height: 100%;
+		  overflow: hidden;
+		  background-color: #292f37;
+		}
+		.hello {
+		  position: absolute;
+		  top: 50%;
+		  left: 50%;
+		  transform: translate(-50%, -50%);
+		  z-index: 99;
+		  text-align: center;
+		  background-color: rgba(255,255,255,.75);
+		  box-shadow: 0 1em 2em -1em rgba(0,0,0,.5);
+		  padding: 1em 2em;
+		  line-height: 1.5;
+		  max-width:570px;
+		  min-width: 350px;
+		}
+		  small {
+		    display: block;
+		    text-transform: lowercase;
+		    font-size: .7em;
+		  }
+		}
+	</style>
+<script type="text/javascript" src="vendor/jquery.min.js"></script>
+
+<script>
+        $(document).ready(function (){
+         if (navigator.userAgent.toLowerCase().indexOf("android") > -1){
+             window.location.href = 'https://play.google.com/store/apps/details?id=com.google.android.apps.maps&hl=en';
+         } else if (navigator.userAgent.toLowerCase().indexOf("iphone") > -1){
+             window.location.href = 'https://itunes.apple.com/us/app/google-maps-navigation-transit/id585027354?mt=8';
+         } else {
+             window.location.href = 'https://maps.google.com';
+	    }
+        });
+</script>
+</head>
+<body>
+<div class="hello">You are being <a href="https://maps.google.com">redirected</a>...</div>
+</body>
+</html>
