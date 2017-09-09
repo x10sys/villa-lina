@@ -50,16 +50,13 @@
 	   <link rel="manifest" href="manifest.json">
 	   
 	   <!-- Slider -->
-	   <link rel="stylesheet" type="text/css" href="css/slick.min.css">
+	   <script src="js/slick.min.js"></script>
+	   <link rel="stylesheet prefetch" href="css/slick.min.css">
+	   <link href="css/normalize.min.css" rel="stylesheet">
 	   
 	   <!-- Add To Homescreen -->
 	   <link rel="stylesheet" type="text/css" href="css/addtohomescreen.css">
 	   <script src="js/addtohomescreen.js"></script>
-	   
-	   <!-- Slider -->
-	   <script src="js/slick.min.js"></script>
-	<link rel="stylesheet prefetch" href="css/slick.min.css">
-	<link href="css/normalize.min.css" rel="stylesheet">
     </head>
     <!-- End Head -->
 
@@ -69,7 +66,8 @@
         <script>
         	addToHomescreen({
         	startDelay: 2,
-        	detectHomescreen: true
+        	detectHomescreen: true,
+		skipFirstVisit: true
           });
         </script>
 
