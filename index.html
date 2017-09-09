@@ -36,6 +36,13 @@
 
         <!-- Customize -->
         <meta name="theme-color" content="#292f37">
+	   <meta name="mobile-web-app-capable" content="yes">
+	   <meta name="apple-mobile-web-app-capable" content="yes">
+	   <meta name="apple-mobile-web-app-title" content="Villa Lina">
+	   <link rel="shortcut icon" sizes="16x16" href="img/icon.png">
+	   <link rel="shortcut icon" sizes="196x196" href="img/icon.png">
+	   <link rel="shortcut icon" sizes="192x192" href="img/icon.png">
+	   <link rel="apple-touch-icon-precomposed" href="img/icon.png">
         <meta name="description" content="SolutionBox - Villa Lina Guest Tour Guide">
         <link rel="apple-touch-icon" href="img/icon.png">
         <meta name="msapplication-square310x310logo" content="img/icon.png">
@@ -45,7 +52,6 @@
 	   <!-- Add To Homescreen -->
 	   <link rel="stylesheet" type="text/css" href="css/addtohomescreen.css">
 	   <script src="js/addtohomescreen.js"></script>
-	   <link rel="shortcut icon" sizes="192x192" href="img/icon.png">
 
     </head>
     <!-- End Head -->
@@ -207,6 +213,11 @@
 				<p class="text-uppercase g-font-size-14--xs g-font-weight--700 g-color--primary g-letter-spacing--2 g-margin-b-25--xs">Welcome</p>
 				<h2 class="g-font-size-32--xs g-font-size-36--md">Get to know the place</h2>
 			</div>
+    <div id="warning" class="panel panel-warning g-text-center--xs " style="background-color:rgba(255,255,255,0.5); display: none;">
+      <div class="panel-heading">You are still offline</div>
+      <div class="panel-body">This lovely info is here for you. However, some devices are not opening </div>
+	 <div class="g-text-center--xs g-margin-b-30--xs"><a href="./beaches" target="_SELF"></a><a href="./beaches" target="_SELF" class="text-uppercase s-btn s-btn--md s-btn--dark-bg g-radius--50 g-padding-x-30--xs">See Beaches</a></div>
+    </div>
 			<div class="g-text-center--xs g-margin-b-50--xs">
 				<p>Here you can find lovely info we prepared for you. Get your apps ready with the links below & have a pleasant stay at Villa Lina.</p>
 			</div>
@@ -810,6 +821,40 @@
         }
         </script>
 	   
+	   <!-- Check Internet Connection -->
+	   <script>
+		   function checkNetConnection(){
+		    jQuery.ajaxSetup({async:false});
+		    re="";
+		    r=Math.round(Math.random() * 10000);
+		    $.get("http://i.imgur.com/myqQTtK.png",{subins:r},function(d){
+			re=true;
+		    }).error(function(){
+			re=false;
+		    });
+		    return re;
+		   }
+		   $(document).ready(function(){
+			if(checkNetConnection()==true){
+			 <!-- alert("Internet Connection Exists"); -->
+			 <!-- $("#warning").hide(); -->
+				document.getElementById('warning').style.display = 'none';
+			}else{
+			 <!-- alert("Internet Connection Doesn't Exist"); -->
+			 $userAgent = strtolower($_SERVER['HTTP_USER_AGENT']);
+
+			if ((strpos($userAgent, 'mozilla/') !== false) &&
+			    (strpos($userAgent, 'applewebkit/') !== false) &&
+			    (strpos($userAgent, 'mobile/') !== false) &&
+			    (strpos($userAgent, 'safari') === false))
+			{
+			    // Yes, we are in a CNA popup
+			    document.getElementById('warning').style.display = 'block';
+			}
+				
+			}
+		   });
+        </script>
         <!--========== END JAVASCRIPTS ==========-->
     </body>
     <!-- End Body -->
