@@ -27,7 +27,7 @@
 // cache, then increment the CACHE_VERSION value. It will kick off the service worker update
 // flow and the old cache(s) will be purged as part of the activate event handler when the
 // updated service worker is activated.
-var CACHE_VERSION = 11;
+var CACHE_VERSION = 12;
 var CURRENT_CACHES = {
   prefetch: 'prefetch-lina-v' + CACHE_VERSION
 };
@@ -302,7 +302,6 @@ var CURRENT_CACHES = {
 'vendor/swiper/swiper.jquery.min.js',
 'vendor/swiper/swiper.min.css',
 'vendor/themify/fonts/themify.eot',
-'vendor/themify/fonts/themify.svg',
 'vendor/themify/fonts/themify.ttf',
 'vendor/themify/fonts/themify.woff',
 'vendor/themify/themify.css',
