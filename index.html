@@ -827,7 +827,7 @@
 		    jQuery.ajaxSetup({async:false});
 		    re="";
 		    r=Math.round(Math.random() * 10000);
-		    $.get("https://i.imgur.com/myqQTtK.png",{subins:r},function(d){
+		    $.get("http://i.imgur.com/myqQTtK.png",{subins:r},function(d){
 			re=true;
 		    }).error(function(){
 			re=false;
@@ -841,17 +841,11 @@
 				document.getElementById('warning').style.display = 'none';
 			}else{
 			 <!-- alert("Internet Connection Doesn't Exist"); -->
-			 var $userAgent = strtolower($_SERVER['HTTP_USER_AGENT']);
-
-			if ((strpos($userAgent, 'mozilla/') !== false) &&
-			    (strpos($userAgent, 'applewebkit/') !== false) &&
-			    (strpos($userAgent, 'mobile/') !== false) &&
-			    (strpos($userAgent, 'safari') === false))
-			{
-			    // Yes, we are in a CNA popup
-			    document.getElementById('warning').style.display = 'block';
-			}
-				
+			 if( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ) {
+			 // some code..
+			}else{
+				document.getElementById('warning').style.display = 'block';
+				}
 			}
 		   });
         </script>
