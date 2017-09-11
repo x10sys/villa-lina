@@ -27,7 +27,7 @@
 // cache, then increment the CACHE_VERSION value. It will kick off the service worker update
 // flow and the old cache(s) will be purged as part of the activate event handler when the
 // updated service worker is activated.
-var CACHE_VERSION = 19;
+var CACHE_VERSION = 20;
 var CURRENT_CACHES = {
   prefetch: 'prefetch-lina-v' + CACHE_VERSION
 };
@@ -240,6 +240,7 @@ var CURRENT_CACHES = {
 'img/restaurants/valle_losca_tavern-6.jpg',
 'img/user-female-icon.png',
 'img/user-male-icon.png',
+'img/placeholder-733x550.png',
 'img/widgets/gmap/cd-icon-controller.svg',
 'img/widgets/gmap/cd-icon-location.png',
 'img/widgets/gmap/cd-icon-location.svg',
@@ -286,6 +287,7 @@ var CURRENT_CACHES = {
 'vendor/jquery.appear.min.js',
 'vendor/jquery.back-to-top.min.js',
 'vendor/jquery.equal-height.min.js',
+'vendor/jquery.lazy.min.js',
 'vendor/jquery.masonry.pkgd.min.js',
 'vendor/jquery.migrate.min.js',
 'vendor/jquery.min.js',

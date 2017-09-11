@@ -57,6 +57,19 @@
 	   <!-- Add To Homescreen -->
 	   <link rel="stylesheet" type="text/css" href="css/addtohomescreen.css">
 	   <script src="js/addtohomescreen.js"></script>
+	   
+	   <!-- LazyLoad -->
+	   <style>
+	     div.lazy {
+		   background-position-x: center;
+		   background-position-y: center;
+		   background-size: cover;
+		   background-repeat-x: no-repeat;
+		   background-repeat-y: no-repeat;
+		   background-attachment: scroll;
+		   height: 400px;
+		 }
+	   </style>
     </head>
     <!-- End Head -->
 
@@ -195,32 +208,32 @@
                     <!-- <div id="js__grid-portfolio-gallery" class="s-portfolio__paginations-v1 cbp">
                         <div class="s-portfolio__item cbp-item motion graphic">
                             <div class="s-portfolio__img">
-                                <img src="img/beaches/kvarner-1.jpg" alt="Image">
+                                <img class="lazy" src="img/placeholder-733x550.png" data-src="img/beaches/kvarner-1.jpg" alt="Image">
                             </div>
                         </div>
                         <div class="s-portfolio__item cbp-item logos graphic">
                             <div class="s-portfolio__img">
-                                <img src="img/beaches/kvarner-2.jpg" alt="Image">
+                                <img class="lazy" src="img/placeholder-733x550.png" data-src="img/beaches/kvarner-2.jpg" alt="Image">
                             </div>
                         </div>
                         <div class="s-portfolio__item cbp-item logos motion">
                             <div class="s-portfolio__img">
-                                <img src="img/beaches/kvarner-3.jpg" alt="Image">
+                                <img class="lazy" src="img/placeholder-733x550.png" data-src="img/beaches/kvarner-3.jpg" alt="Image">
                             </div>
                         </div>
                         <div class="s-portfolio__item cbp-item graphic">
                             <div class="s-portfolio__img">
-                                <img src="img/beaches/kvarner-4.jpg" alt="Image">
+                                <img class="lazy" src="img/placeholder-733x550.png" data-src="img/beaches/kvarner-4.jpg" alt="Image">
                             </div>
                         </div>
                         <div class="s-portfolio__item cbp-item logos">
                             <div class="s-portfolio__img">
-                                <img src="img/beaches/kvarner-5.jpg" alt="Image">
+                                <img class="lazy" src="img/placeholder-733x550.png" data-src="img/beaches/kvarner-5.jpg" alt="Image">
                             </div>
                         </div>
                         <div class="s-portfolio__item cbp-item motion graphic">
                             <div class="s-portfolio__img">
-                                <img src="img/beaches/kvarner-6.jpg" alt="Image">
+                                <img class="lazy" src="img/placeholder-733x550.png" data-src="img/beaches/kvarner-6.jpg" alt="Image">
                             </div>
                         </div>
                     </div> -->
@@ -298,7 +311,7 @@
 	
 
         <!-- Beach -->
-	   <div class="js__parallax-window" style="background: url(./img/beaches/peharovo.jpg) no-repeat center center scroll;background-size: cover; height: 400px;">
+	   <div class="js__parallax-window lazy" data-src="./img/beaches/peharovo.jpg">
             <div class="container g-text-center--xs g-padding-y-100--xs g-padding-y-125--sm">
                 <div class="g-margin-b-80--xs">
 				
@@ -322,9 +335,9 @@
                     <!-- Slick Carousel -->
 				<div class="wow fadeInUp animated animated" data-wow-duration=".3" data-wow-delay=".1s" style="visibility: visible; animation-delay: 0.1s; animation-name: fadeInUp;">
 					<div class="slider responsive">
-						<div><img src="img/beaches/peharovo-1.jpg" alt="" /></div>
-						<div><img src="img/beaches/peharovo-2.jpg" alt="" /></div>
-						<div><img src="img/beaches/peharovo-3.jpg" alt="" /></div>
+						<div><img class="lazy" src="img/placeholder-733x550.png" data-src="img/beaches/peharovo-1.jpg" alt="" /></div>
+						<div><img class="lazy" src="img/placeholder-733x550.png" data-src="img/beaches/peharovo-2.jpg" alt="" /></div>
+						<div><img class="lazy" src="img/placeholder-733x550.png" data-src="img/beaches/peharovo-3.jpg" alt="" /></div>
 					</div>
 				</div>
 				 <!-- control arrows -->
@@ -387,7 +400,7 @@
         <!-- End Beach -->
 	   
         <!-- Beach -->
-	   <div class="js__parallax-window" style="background: url(./img/beaches/dog_lovran.jpg) no-repeat center center scroll;background-size: cover; height: 400px;">
+	   <div class="js__parallax-window lazy" data-src="./img/beaches/dog_lovran.jpg">
             <div class="container g-text-center--xs g-padding-y-100--xs g-padding-y-125--sm">
                 <div class="g-margin-b-80--xs">
 				
@@ -409,11 +422,11 @@
                     <!-- Slick Carousel -->
 				<div class="wow fadeInUp animated animated" data-wow-duration=".3" data-wow-delay=".1s" style="visibility: visible; animation-delay: 0.1s; animation-name: fadeInUp;">
 					<div class="slider responsive">
-						<div><img src="img/beaches/dog_lovran-1.jpg" alt="" /></div>
-						<div><img src="img/beaches/dog_lovran-2.jpg" alt="" /></div>
-						<div><img src="img/beaches/dog_lovran-3.jpg" alt="" /></div>
-						<div><img src="img/beaches/dog_lovran-4.jpg" alt="" /></div>
-						<div><img src="img/beaches/dog_lovran-5.jpg" alt="" /></div>
+						<div><img class="lazy" src="img/placeholder-733x550.png" data-src="img/beaches/dog_lovran-1.jpg" alt="" /></div>
+						<div><img class="lazy" src="img/placeholder-733x550.png" data-src="img/beaches/dog_lovran-2.jpg" alt="" /></div>
+						<div><img class="lazy" src="img/placeholder-733x550.png" data-src="img/beaches/dog_lovran-3.jpg" alt="" /></div>
+						<div><img class="lazy" src="img/placeholder-733x550.png" data-src="img/beaches/dog_lovran-4.jpg" alt="" /></div>
+						<div><img class="lazy" src="img/placeholder-733x550.png" data-src="img/beaches/dog_lovran-5.jpg" alt="" /></div>
 					</div>
 				</div>
 				 <!-- control arrows -->
@@ -477,7 +490,7 @@
 	   
 	   
         <!-- Beach -->
-	   <div class="js__parallax-window" style="background: url(./img/beaches/icici.jpg) no-repeat center center scroll;background-size: cover; height: 400px;">
+	   <div class="js__parallax-window lazy" data-src="./img/beaches/icici.jpg">
             <div class="container g-text-center--xs g-padding-y-100--xs g-padding-y-125--sm">
                 <div class="g-margin-b-80--xs">
 				
@@ -501,12 +514,12 @@
 				<!-- Slick Carousel -->
 				<div class="wow fadeInUp animated animated" data-wow-duration=".3" data-wow-delay=".1s" style="visibility: visible; animation-delay: 0.1s; animation-name: fadeInUp;">
 					<div class="slider responsive">
-						<div><img src="img/beaches/icici-1.jpg" alt="" /></div>
-						<div><img src="img/beaches/icici-2.jpg" alt="" /></div>
-						<div><img src="img/beaches/icici-3.jpg" alt="" /></div>
-						<div><img src="img/beaches/icici-4.jpg" alt="" /></div>
-						<div><img src="img/beaches/icici-5.jpg" alt="" /></div>
-						<div><img src="img/beaches/icici-6.jpg" alt="" /></div>
+						<div><img class="lazy" src="img/placeholder-733x550.png" data-src="img/beaches/icici-1.jpg" alt="" /></div>
+						<div><img class="lazy" src="img/placeholder-733x550.png" data-src="img/beaches/icici-2.jpg" alt="" /></div>
+						<div><img class="lazy" src="img/placeholder-733x550.png" data-src="img/beaches/icici-3.jpg" alt="" /></div>
+						<div><img class="lazy" src="img/placeholder-733x550.png" data-src="img/beaches/icici-4.jpg" alt="" /></div>
+						<div><img class="lazy" src="img/placeholder-733x550.png" data-src="img/beaches/icici-5.jpg" alt="" /></div>
+						<div><img class="lazy" src="img/placeholder-733x550.png" data-src="img/beaches/icici-6.jpg" alt="" /></div>
 					</div>
 				</div>
 				 <!-- control arrows -->
@@ -569,7 +582,7 @@
         <!-- End Beach -->
 	   
         <!-- Beach -->
-	   <div class="js__parallax-window" style="background: url(./img/beaches/slatina.jpg) no-repeat center center scroll;background-size: cover; height: 400px;">
+	   <div class="js__parallax-window lazy" data-src="./img/beaches/slatina.jpg">
             <div class="container g-text-center--xs g-padding-y-100--xs g-padding-y-125--sm">
                 <div class="g-margin-b-80--xs">
 				
@@ -592,10 +605,10 @@
                     <!-- Slick Carousel -->
 				<div class="wow fadeInUp animated animated" data-wow-duration=".3" data-wow-delay=".1s" style="visibility: visible; animation-delay: 0.1s; animation-name: fadeInUp;">
 					<div class="slider responsive">
-						<div><img src="img/beaches/slatina-1.jpg" alt="" /></div>
-						<div><img src="img/beaches/slatina-2.jpg" alt="" /></div>
-						<div><img src="img/beaches/slatina-3.jpg" alt="" /></div>
-						<div><img src="img/beaches/slatina-4.jpg" alt="" /></div>
+						<div><img class="lazy" src="img/placeholder-733x550.png" data-src="img/beaches/slatina-1.jpg" alt="" /></div>
+						<div><img class="lazy" src="img/placeholder-733x550.png" data-src="img/beaches/slatina-2.jpg" alt="" /></div>
+						<div><img class="lazy" src="img/placeholder-733x550.png" data-src="img/beaches/slatina-3.jpg" alt="" /></div>
+						<div><img class="lazy" src="img/placeholder-733x550.png" data-src="img/beaches/slatina-4.jpg" alt="" /></div>
 					</div>
 				</div>
 				 <!-- control arrows -->
@@ -658,7 +671,7 @@
         <!-- End Beach -->
 	   
         <!-- Beach -->
-	   <div class="js__parallax-window" style="background: url(./img/beaches/angiolina.jpg) no-repeat center center scroll;background-size: cover; height: 400px;">
+	   <div class="js__parallax-window lazy" data-src="./img/beaches/angiolina.jpg">
             <div class="container g-text-center--xs g-padding-y-100--xs g-padding-y-125--sm">
                 <div class="g-margin-b-80--xs">
 				
@@ -680,12 +693,12 @@
                     <!-- Slick Carousel -->
 				<div class="wow fadeInUp animated animated" data-wow-duration=".3" data-wow-delay=".1s" style="visibility: visible; animation-delay: 0.1s; animation-name: fadeInUp;">
 					<div class="slider responsive">
-						<div><img src="img/beaches/angiolina-1.jpg" alt="" /></div>
-						<div><img src="img/beaches/angiolina-2.jpg" alt="" /></div>
-						<div><img src="img/beaches/angiolina-3.jpg" alt="" /></div>
-						<div><img src="img/beaches/angiolina-4.jpg" alt="" /></div>
-						<div><img src="img/beaches/angiolina-5.jpg" alt="" /></div>
-						<div><img src="img/beaches/angiolina-6.jpg" alt="" /></div>
+						<div><img class="lazy" src="img/placeholder-733x550.png" data-src="img/beaches/angiolina-1.jpg" alt="" /></div>
+						<div><img class="lazy" src="img/placeholder-733x550.png" data-src="img/beaches/angiolina-2.jpg" alt="" /></div>
+						<div><img class="lazy" src="img/placeholder-733x550.png" data-src="img/beaches/angiolina-3.jpg" alt="" /></div>
+						<div><img class="lazy" src="img/placeholder-733x550.png" data-src="img/beaches/angiolina-4.jpg" alt="" /></div>
+						<div><img class="lazy" src="img/placeholder-733x550.png" data-src="img/beaches/angiolina-5.jpg" alt="" /></div>
+						<div><img class="lazy" src="img/placeholder-733x550.png" data-src="img/beaches/angiolina-6.jpg" alt="" /></div>
 					</div>
 				</div>
 				 <!-- control arrows -->
@@ -748,7 +761,7 @@
         <!-- End Beach -->
 	   
         <!-- Beach -->
-	   <div class="js__parallax-window" style="background: url(./img/beaches/lido.jpg) no-repeat center center scroll;background-size: cover; height: 400px;">
+	   <div class="js__parallax-window lazy" data-src="./img/beaches/lido.jpg">
             <div class="container g-text-center--xs g-padding-y-100--xs g-padding-y-125--sm">
                 <div class="g-margin-b-80--xs">
 				
@@ -771,12 +784,12 @@
                     <!-- Slick Carousel -->
 				<div class="wow fadeInUp animated animated" data-wow-duration=".3" data-wow-delay=".1s" style="visibility: visible; animation-delay: 0.1s; animation-name: fadeInUp;">
 					<div class="slider responsive">
-						<div><img src="img/beaches/lido-1.jpg" alt="" /></div>
-						<div><img src="img/beaches/lido-2.jpg" alt="" /></div>
-						<div><img src="img/beaches/lido-3.jpg" alt="" /></div>
-						<div><img src="img/beaches/lido-4.jpg" alt="" /></div>
-						<div><img src="img/beaches/lido-5.jpg" alt="" /></div>
-						<div><img src="img/beaches/lido-6.jpg" alt="" /></div>
+						<div><img class="lazy" src="img/placeholder-733x550.png" data-src="img/beaches/lido-1.jpg" alt="" /></div>
+						<div><img class="lazy" src="img/placeholder-733x550.png" data-src="img/beaches/lido-2.jpg" alt="" /></div>
+						<div><img class="lazy" src="img/placeholder-733x550.png" data-src="img/beaches/lido-3.jpg" alt="" /></div>
+						<div><img class="lazy" src="img/placeholder-733x550.png" data-src="img/beaches/lido-4.jpg" alt="" /></div>
+						<div><img class="lazy" src="img/placeholder-733x550.png" data-src="img/beaches/lido-5.jpg" alt="" /></div>
+						<div><img class="lazy" src="img/placeholder-733x550.png" data-src="img/beaches/lido-6.jpg" alt="" /></div>
 					</div>
 				</div>
 				 <!-- control arrows -->
@@ -839,7 +852,7 @@
         <!-- End Beach -->
 	   
         <!-- Beach -->
-	   <div class="js__parallax-window" style="background: url(./img/beaches/medveja.jpg) no-repeat center center scroll;background-size: cover; height: 400px;">
+	   <div class="js__parallax-window lazy" data-src="./img/beaches/medveja.jpg">
             <div class="container g-text-center--xs g-padding-y-100--xs g-padding-y-125--sm">
                 <div class="g-margin-b-80--xs">
 				
@@ -862,12 +875,12 @@
                     <!-- Slick Carousel -->
 				<div class="wow fadeInUp animated animated" data-wow-duration=".3" data-wow-delay=".1s" style="visibility: visible; animation-delay: 0.1s; animation-name: fadeInUp;">
 					<div class="slider responsive">
-						<div><img src="img/beaches/medveja-1.jpg" alt="" /></div>
-						<div><img src="img/beaches/medveja-2.jpg" alt="" /></div>
-						<div><img src="img/beaches/medveja-3.jpg" alt="" /></div>
-						<div><img src="img/beaches/medveja-4.jpg" alt="" /></div>
-						<div><img src="img/beaches/medveja-5.jpg" alt="" /></div>
-						<div><img src="img/beaches/medveja-6.jpg" alt="" /></div>
+						<div><img class="lazy" src="img/placeholder-733x550.png" data-src="img/beaches/medveja-1.jpg" alt="" /></div>
+						<div><img class="lazy" src="img/placeholder-733x550.png" data-src="img/beaches/medveja-2.jpg" alt="" /></div>
+						<div><img class="lazy" src="img/placeholder-733x550.png" data-src="img/beaches/medveja-3.jpg" alt="" /></div>
+						<div><img class="lazy" src="img/placeholder-733x550.png" data-src="img/beaches/medveja-4.jpg" alt="" /></div>
+						<div><img class="lazy" src="img/placeholder-733x550.png" data-src="img/beaches/medveja-5.jpg" alt="" /></div>
+						<div><img class="lazy" src="img/placeholder-733x550.png" data-src="img/beaches/medveja-6.jpg" alt="" /></div>
 					</div>
 				</div>
 				 <!-- control arrows -->
@@ -930,7 +943,7 @@
         <!-- End Beach -->
 	   
         <!-- Beach -->
-	   <div class="js__parallax-window" style="background: url(./img/beaches/sipar.jpg) no-repeat center center scroll;background-size: cover; height: 400px;">
+	   <div class="js__parallax-window lazy" data-src="./img/beaches/sipar.jpg">
             <div class="container g-text-center--xs g-padding-y-100--xs g-padding-y-125--sm">
                 <div class="g-margin-b-80--xs">
 				
@@ -955,12 +968,12 @@
                     <!-- Slick Carousel -->
 				<div class="wow fadeInUp animated animated" data-wow-duration=".3" data-wow-delay=".1s" style="visibility: visible; animation-delay: 0.1s; animation-name: fadeInUp;">
 					<div class="slider responsive">
-						<div><img src="img/beaches/sipar-1.jpg" alt="" /></div>
-						<div><img src="img/beaches/sipar-2.jpg" alt="" /></div>
-						<div><img src="img/beaches/sipar-3.jpg" alt="" /></div>
-						<div><img src="img/beaches/sipar-4.jpg" alt="" /></div>
-						<div><img src="img/beaches/sipar-5.jpg" alt="" /></div>
-						<div><img src="img/beaches/sipar-6.jpg" alt="" /></div>
+						<div><img class="lazy" src="img/placeholder-733x550.png" data-src="img/beaches/sipar-1.jpg" alt="" /></div>
+						<div><img class="lazy" src="img/placeholder-733x550.png" data-src="img/beaches/sipar-2.jpg" alt="" /></div>
+						<div><img class="lazy" src="img/placeholder-733x550.png" data-src="img/beaches/sipar-3.jpg" alt="" /></div>
+						<div><img class="lazy" src="img/placeholder-733x550.png" data-src="img/beaches/sipar-4.jpg" alt="" /></div>
+						<div><img class="lazy" src="img/placeholder-733x550.png" data-src="img/beaches/sipar-5.jpg" alt="" /></div>
+						<div><img class="lazy" src="img/placeholder-733x550.png" data-src="img/beaches/sipar-6.jpg" alt="" /></div>
 					</div>
 				</div>
 				 <!-- control arrows -->
@@ -1023,7 +1036,7 @@
         <!-- End Beach -->
 	   
         <!-- Beach -->
-	   <div class="js__parallax-window" style="background: url(./img/beaches/klancac.jpg) no-repeat center center scroll;background-size: cover; height: 400px;">
+	   <div class="js__parallax-window lazy" data-src="./img/beaches/klancac.jpg">
             <div class="container g-text-center--xs g-padding-y-100--xs g-padding-y-125--sm">
                 <div class="g-margin-b-80--xs">
 				
@@ -1046,9 +1059,9 @@
                     <!-- Slick Carousel -->
 				<div class="wow fadeInUp animated animated" data-wow-duration=".3" data-wow-delay=".1s" style="visibility: visible; animation-delay: 0.1s; animation-name: fadeInUp;">
 					<div class="slider responsive">
-						<div><img src="img/beaches/klancac-1.jpg" alt="" /></div>
-						<div><img src="img/beaches/klancac-2.jpg" alt="" /></div>
-						<div><img src="img/beaches/klancac-3.jpg" alt="" /></div>
+						<div><img class="lazy" src="img/placeholder-733x550.png" data-src="img/beaches/klancac-1.jpg" alt="" /></div>
+						<div><img class="lazy" src="img/placeholder-733x550.png" data-src="img/beaches/klancac-2.jpg" alt="" /></div>
+						<div><img class="lazy" src="img/placeholder-733x550.png" data-src="img/beaches/klancac-3.jpg" alt="" /></div>
 					</div>
 				</div>
 				 <!-- control arrows -->
@@ -1167,8 +1180,8 @@
             <div class="container g-padding-y-50--xs">
                 <div class="row">
                     <div class="col-xs-6">
-                        <a href="index.html">
-                            <img class="g-width-100--xs g-height-auto--xs" src="img/logo.png" alt="Logo">
+                        <a href="./">
+                            <img class="g-width-auto--xs g-height-45--xs" src="img/logo.png" alt="Logo">
                         </a>
                     </div>
                     <div class="col-xs-6 g-text-right--xs">
@@ -1190,6 +1203,7 @@
         <script type="text/javascript" src="vendor/bootstrap/js/bootstrap.min.js"></script>
         <script type="text/javascript" src="vendor/jquery.smooth-scroll.min.js"></script>
         <script type="text/javascript" src="vendor/jquery.back-to-top.min.js"></script>
+        <script type="text/javascript" src="vendor/jquery.lazy.min.js"></script>
         <script type="text/javascript" src="vendor/scrollbar/jquery.scrollbar.min.js"></script>
         <script type="text/javascript" src="vendor/magnific-popup/jquery.magnific-popup.min.js"></script>
         <script type="text/javascript" src="vendor/swiper/swiper.jquery.min.js"></script>
@@ -1241,6 +1255,15 @@
         		// instead of a settings object
         	  ]
         	});
+        </script>
+	   
+	   <!-- LazyLoad -->
+	   <script>
+            $(function() {
+                $('.lazy').lazy({
+                    delay: 200
+                });
+            });
         </script>
 	
 	   <!-- ServiceWorker -->
