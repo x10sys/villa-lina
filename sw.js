@@ -49,7 +49,6 @@ var CURRENT_CACHES = {
 'css/normalize.min.css',
 'css/slick.min.css',
 'css/style.css',
-'css/theme/dark.css',
 'css/theme/gold.css',
 'css/theme/red.css',
 'fonts/font-awesome-css.min.css',
